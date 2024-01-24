@@ -1,0 +1,75 @@
+#navigation {
+    text-align: center;
+    word-spacing: 80px;
+    color: rgb(25, 245, 135);
+    background-color: rgba(0, 0, 255, 0.13);
+    font-size: 20px;
+    font-style: Arial;
+}
+
+
+#heading {
+    text-align: center;
+    color: blue;
+}
+
+#product-image {
+    text-align: center;
+}
+
+#product-name {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#product-price {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.color-selection {
+    text-align: center;
+    word-spacing: 25px;
+}
+
+.color-selection button {
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/*为啥有button就不能居中了*/
+
+.yellow-button {
+    background-color: rgb(244, 162, 40);
+    padding: 10px;
+}
+
+/*为啥设置不了底色*/
+
+.quantity {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.3em;
+}
+
+
+
+.Add-to-Bag {
+    text-align: center;
+    color: yellow;
+    background-color: blueviolet;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/*为什么不居中*/
+
+
+
+.delivery-options {
+    border-collapse: collapse;
+    border: 1px, black;
+}

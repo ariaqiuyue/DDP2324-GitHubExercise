@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hat</title>
+    <link rel="stylesheet" href="/CSS/styles-Hat.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+
+        }
+    </style>
+</head>
+<!--上面设置了一下表格格式怎么还是没有边框, 问题找到了，1px solid black中间不能有逗号-->
+
+<body>
+    <!--这里是导航栏内容-->
+    <nav id="navigation">
+        <a href="http://127.0.0.1:3000/HTML/home.html" style="color: blueviolet; text-decoration: none;">Home</a>
+        <a href="#" style="color: blueviolet; text-decoration: none;">Accessories</a>
+        <a href="http://127.0.0.1:3000/HTML/Hat.html" style="color: blueviolet; text-decoration: none;">Hats</a>
+    </nav>
+
+    <!--这里是标题-->
+    <h1 id="heading">Amazing Hat</h1>
+
+    <!--这里是产品图片-->
+    <section id="product-image">
+        <img src="/Hats.jpg" alt="cute hat">
+    </section>
+
+
+    <p id="product-name">cute hat</p>
+
+    <p id="product-price">price: £15</p>
+
+    <section class="color-selection">
+        <button class="yellow button">yellow</button>
+        <button>white</button>
+        <button>bule</button>
+    </section>
+
+    <section class="quantity">
+        <label for="quantity">quantity</label>
+        <select name="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+
+    </section>
+
+    <button class="Add-to-Bag">Add to Bag</button>
+
+    <!--这部分是产品描述-->
+    <section class="product-discription">
+        <h2>Product discription</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, repellat quisquam quo ratione id voluptate
+            aliquid fugiat minus mollitia modi, sit exercitationem in, quaerat a maiores harum tempore? Aliquid,
+            repudiandae.</p>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, iste.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Size</th>
+                    <th>Head circumference</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>S</td>
+                    <td>54-55</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>56-57</td>
+                </tr>
+                <tr>
+                    <td>L</td>
+                    <td>58-60</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!--这部分是运输方式-->
+    <section class="delivery-options">
+        <h2>Delivery Policy</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Delivery options</th>
+                    <th>Price</th>
+                    <th>Estimated delivery time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>standard delivery</td>
+                    <td>£3.99</td>
+                    <td>estimated 3-5 days</td>
+                </tr>
+                <tr>
+                    <td>next day delivery</td>
+                    <td>£4.99</td>
+                    <td>next working day</td>
+                </tr>
+                <tr>
+                    <td>click&collect</td>
+                    <td>free </td>
+                    <td>same day</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <section>
+        <h2>customer review</h2>
+        <article>
+            <h3>review title</h3>
+            <p>★★★★☆</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, libero.</p>
+        </article>
+    </section>
+
+</body>
+
+</html>
